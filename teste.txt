@@ -1,0 +1,6 @@
+programa{
+inteiro n1, n2 = 2
+real pi = 3.14
+logico vf = verdadeiro
+vetor vet1[5] = {10}
+}

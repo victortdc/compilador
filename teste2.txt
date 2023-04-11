@@ -1,0 +1,6 @@
+programa{
+inteiro n1, n2 = 2
+real r1
+logico vf = verdadeiro|falso
+}
+

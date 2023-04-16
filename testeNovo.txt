@@ -14,10 +14,29 @@ funcao teste(inteiro n5){
 funcao palavra teste2 (){
   real n1 = 0
   palavra t = "t"
- funcao teste(n5)
-  retorne t
-
-  }
+ funcao teste(n[5])
+ 
+  para (inteiro i=0; i<5; i++){
+   se (i<1){ 
+      escreva ("teste")
+    }
+   senao{
+    escreva ("teste "+ "a") 
+   }
+   }
+   enquanto (i<10) {
+      escreva ("teste")
+   }
+   faca_enquanto {
+     escreva ("teste")
+    }
+    enquanto (i<10) {  
+        escreva ("teste")
+        leia (vet[5])	
+    }
+ retorne t
 }
+}
+
 
 

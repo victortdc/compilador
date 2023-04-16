@@ -60,35 +60,10 @@ enum TokenId
     t_ABRE_PARENTESES = 54,
     t_FECHA_PARENTESES = 55,
     t_ABRE_CHAVES = 56,
-    t_FECHA_CHAVES = 57,
-    t_TOKEN_58 = 58, //"+"
-    t_TOKEN_59 = 59, //"-"
-    t_TOKEN_60 = 60, //"*"
-    t_TOKEN_61 = 61, //"/"
-    t_TOKEN_62 = 62, //"%"
-    t_TOKEN_63 = 63, //">"
-    t_TOKEN_64 = 64, //"<"
-    t_TOKEN_65 = 65, //">="
-    t_TOKEN_66 = 66, //"<="
-    t_TOKEN_67 = 67, //"="
-    t_TOKEN_68 = 68, //"!="
-    t_TOKEN_69 = 69, //"&&"
-    t_TOKEN_70 = 70, //"||"
-    t_TOKEN_71 = 71, //"!"
-    t_TOKEN_72 = 72, //"~"
-    t_TOKEN_73 = 73, //">>"
-    t_TOKEN_74 = 74, //"<<"
-    t_TOKEN_75 = 75, //"^"
-    t_TOKEN_76 = 76, //"|"
-    t_TOKEN_77 = 77, //"&"
-    t_TOKEN_78 = 78, //"("
-    t_TOKEN_79 = 79, //")"
-    t_id = 80,
-    t_num_int = 81,
-    t_num_real = 82
+    t_FECHA_CHAVES = 57
 };
 
-const int STATES_COUNT = 166;
+const int STATES_COUNT = 162;
 
 extern int SCANNER_TABLE[STATES_COUNT][256];
 
@@ -96,7 +71,7 @@ extern int TOKEN_STATE[STATES_COUNT];
 
 extern const char *SCANNER_ERROR[STATES_COUNT];
 
-const int FIRST_SEMANTIC_ACTION = 146;
+const int FIRST_SEMANTIC_ACTION = 123;
 
 const int SHIFT  = 0;
 const int REDUCE = 1;
@@ -105,10 +80,10 @@ const int ACCEPT = 3;
 const int GO_TO  = 4;
 const int ERROR  = 5;
 
-extern const int PARSER_TABLE[181][145][2];
+extern const int PARSER_TABLE[286][122][2];
 
-extern const int PRODUCTIONS[146][2];
+extern const int PRODUCTIONS[153][2];
 
-extern const char *PARSER_ERROR[181];
+extern const char *PARSER_ERROR[286];
 
 #endif

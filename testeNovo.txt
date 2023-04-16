@@ -1,0 +1,23 @@
+programa{
+inteiro n1, n2 = 2
+real pi = 3.14
+logico vf = verdadeiro
+inteiro  vet1[5] = {10}
+palavra a= "teste"
+caractere b = 'o'
+inteiro d = a+b
+d = a*c
+funcao teste(inteiro n5){
+   inteiro a =0
+  palavra teste2="teste2"
+  }
+funcao palavra teste2 (){
+  real n1 = 0
+  palavra t = "t"
+ funcao teste(n5)
+  retorne t
+
+  }
+}
+
+

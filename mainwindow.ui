@@ -85,7 +85,7 @@
    </property>
    <widget class="QMenu" name="menuArquivo">
     <property name="title">
-     <string>Arquivo</string>
+     <string>Geladeira</string>
     </property>
     <addaction name="actionAbrir"/>
     <addaction name="actionSalvar"/>
